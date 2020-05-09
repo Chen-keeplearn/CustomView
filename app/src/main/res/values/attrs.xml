@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 评分控件自定义属性 -->
+    <declare-styleable name="RatingView">
+        <!-- 星星未选中 资源文件 -->
+        <attr name="starNormal" format="reference" />
+        <!-- 星星选中 资源文件 -->
+        <attr name="starFocus" format="reference" />
+        <!-- 评分等级 -->
+        <attr name="level" format="integer" />
+    </declare-styleable>
+
+    <!--仿QQ计步器view-->
+    <declare-styleable name="QQStepView">
+        <!--弧度自带颜色-->
+        <attr name="normalColor" format="color" />
+        <!--步数颜色-->
+        <attr name="stepColor" format="color" />
+        <!--dimension:大小宽度-->
+        <!--圆弧宽度-->
+        <attr name="borderWidth" format="dimension" />
+        <!--字体大小-->
+        <attr name="stepTextSize" format="dimension" />
+        <!--字体颜色-->
+        <attr name="stepTextColor" format="color" />
+    </declare-styleable>
+</resources>

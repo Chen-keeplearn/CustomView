@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">@android:color/white</color>
+    <!--标题字体颜色-->
+    <color name="color_title">#333333</color>
+    <!--正文字体颜色-->
+    <color name="color_content">#666666</color>
+    <!--默认、描述文字颜色-->
+    <color name="color_desc">#999999</color>
+    <!--分割线颜色-->
+    <color name="color_divide_line">#e5e5e5</color>
+
+</resources>

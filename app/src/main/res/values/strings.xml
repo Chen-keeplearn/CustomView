@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CustomView</string>
+    <string name="menu">Menu</string>
+    <string name="menu_introduce">路径菜单</string>
+    <string name="loading_view">LoadingView</string>
+    <string name="loading_view_introduce">仿花束直播加载动画</string>
+    <string name="dialog_text">弹出框</string>
+    <string name="rating_view">RatingView</string>
+    <string name="rating_view_introduce">自定义星星评分控件</string>
+    <string name="qq_step_view">QQStepView</string>
+    <string name="step_view_introduce">仿QQ自定义计步器</string>
+    <string name="loading58_view">Loading58</string>
+    <string name="loading58_introduce">仿58同城数据加载</string>
+    <string name="exchange">切换</string>
+</resources>

@@ -1,0 +1,2 @@
+include ':app', ':al_base'
+rootProject.name='CustomView'

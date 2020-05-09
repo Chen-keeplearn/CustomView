@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--类似“我的”item布局的自定义属性-->
+    <declare-styleable name="ALMeItemView">
+        <!--左边图标-->
+        <attr name="left_icon" format="reference" />
+        <!--右边图标-->
+        <attr name="right_icon" format="reference" />
+        <!--左侧文字内容-->
+        <attr name="left_text" format="string" />
+        <!--右侧描述文字内容-->
+        <attr name="desc_text" format="string" />
+        <!--右侧图标是否显示-->
+        <attr name="show_right_icon" format="boolean" />
+        <!--左侧图标是否显示-->
+        <attr name="show_left_icon" format="boolean" />
+    </declare-styleable>
+
+    <!--自定义Layout布局,直接在xml中定义,不需要对于圆角之类的不需要再写shape-->
+    <!--按钮圆角,如果单独设置会覆盖此设置-->
+    <attr name="corner" format="dimension" />
+    <!--左上角圆角半径-->
+    <attr name="corner_left_top" format="dimension" />
+    <!--左下角圆角半径-->
+    <attr name="corner_left_bottom" format="dimension" />
+    <!--右上角圆角半径-->
+    <attr name="corner_right_top" format="dimension" />
+    <!--右下角圆角半径-->
+    <attr name="corner_right_bottom" format="dimension" />
+    <!--边框宽度-->
+    <attr name="border_width" format="dimension" />
+    <!--边框颜色-->
+    <attr name="border_color" format="color" />
+    <!--背景颜色-->
+    <attr name="normal_background" format="color" />
+    <declare-styleable name="ALLinearLayout">
+        <!--按钮圆角,如果单独设置会覆盖此设置-->
+        <attr name="corner" />
+        <!--左上角圆角半径-->
+        <attr name="corner_left_top" />
+        <!--左下角圆角半径-->
+        <attr name="corner_left_bottom" />
+        <!--右上角圆角半径-->
+        <attr name="corner_right_top" />
+        <!--右下角圆角半径-->
+        <attr name="corner_right_bottom" />
+        <!--边框宽度-->
+        <attr name="border_width" />
+        <!--边框颜色-->
+        <attr name="border_color" />
+        <!--背景颜色-->
+        <attr name="normal_background" />
+    </declare-styleable>
+
+    <!--自定义RelativeLayout布局,直接在xml中定义,不需要对于圆角之类的不需要再写shape-->
+    <declare-styleable name="ALRelativeLayout">
+        <!--按钮圆角,如果单独设置会覆盖此设置-->
+        <attr name="corner" />
+        <!--左上角圆角半径-->
+        <attr name="corner_left_top" />
+        <!--左下角圆角半径-->
+        <attr name="corner_left_bottom" />
+        <!--右上角圆角半径-->
+        <attr name="corner_right_top" />
+        <!--右下角圆角半径-->
+        <attr name="corner_right_bottom" />
+        <!--边框宽度-->
+        <attr name="border_width" />
+        <!--边框颜色-->
+        <attr name="border_color" />
+        <!--背景颜色-->
+        <attr name="normal_background" />
+    </declare-styleable>
+
+    <!--自定义FrameLayout布局,直接在xml中定义,不需要对于圆角之类的不需要再写shape-->
+    <declare-styleable name="ALFrameLayout">
+        <!--按钮圆角,如果单独设置会覆盖此设置-->
+        <attr name="corner" />
+        <!--左上角圆角半径-->
+        <attr name="corner_left_top" />
+        <!--左下角圆角半径-->
+        <attr name="corner_left_bottom" />
+        <!--右上角圆角半径-->
+        <attr name="corner_right_top" />
+        <!--右下角圆角半径-->
+        <attr name="corner_right_bottom" />
+        <!--边框宽度-->
+        <attr name="border_width" />
+        <!--边框颜色-->
+        <attr name="border_color" />
+        <!--背景颜色-->
+        <attr name="normal_background" />
+    </declare-styleable>
+
+    <!--自定义ConstraintLayout布局,直接在xml中定义,不需要对于圆角之类的不需要再写shape-->
+    <declare-styleable name="ALConstraintLayout">
+        <!--按钮圆角,如果单独设置会覆盖此设置-->
+        <attr name="corner" />
+        <!--左上角圆角半径-->
+        <attr name="corner_left_top" />
+        <!--左下角圆角半径-->
+        <attr name="corner_left_bottom" />
+        <!--右上角圆角半径-->
+        <attr name="corner_right_top" />
+        <!--右下角圆角半径-->
+        <attr name="corner_right_bottom" />
+        <!--边框宽度-->
+        <attr name="border_width" />
+        <!--边框颜色-->
+        <attr name="border_color" />
+        <!--背景颜色-->
+        <attr name="normal_background" />
+    </declare-styleable>
+
+</resources>
