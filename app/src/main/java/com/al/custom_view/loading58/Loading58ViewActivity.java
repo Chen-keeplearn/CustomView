@@ -7,9 +7,10 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
+import com.al.custom_view.CustomViewApplication;
 import com.al.custom_view.R;
 import com.al.custom_view.databinding.ActivityLoading58ViewBinding;
-import com.al.custom_view.extension.ContextExtKt;
+import com.al.custom_view.extension.ContextUtils;
 
 public class Loading58ViewActivity extends AppCompatActivity {
     private ActivityLoading58ViewBinding binding;
@@ -18,12 +19,14 @@ public class Loading58ViewActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         //setContentView(R.layout.activity_loading58_view);
         binding = DataBindingUtil.setContentView(this,R.layout.activity_loading58_view);
-        ContextExtKt.showToast("");
+        //ContextExtKt.showToast("");
+        ContextUtils.showToast("");
         binding.btnExchange.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //binding.loadingView58.exchange();
             }
         });
+        //CustomViewApplication.mContext();
     }
 }

@@ -3,6 +3,7 @@ package com.al.custom_view
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
+import com.al.custom_view.dashboard.DashboardActivity
 import com.al.custom_view.databinding.ActivityMainBinding
 import com.al.custom_view.extension.onClick
 import com.al.custom_view.extension.startActivity
@@ -11,7 +12,9 @@ import com.al.custom_view.loading_view.LoadingViewActivity
 import com.al.custom_view.path_menu.PathMenuActivity
 import com.al.custom_view.rating_view.RatingViewActivity
 import com.al.custom_view.step_view.QQStepViewActivity
+import com.al.custom_view.text_view_color_track.ColorTrackActivity
 import com.al.custom_view.utils.ToastUtil
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -35,6 +38,12 @@ class MainActivity : AppCompatActivity() {
         binding.btnLoading58.onClick {
             ToastUtil.showMsg("")
             startActivity(Loading58ViewActivity::class.java)
+        }
+        binding.btnColorTrackTextView.onClick {
+            startActivity(ColorTrackActivity::class.java)
+        }
+        btnDashboard.onClick {
+            startActivity(DashboardActivity::class.java)
         }
     }
 }

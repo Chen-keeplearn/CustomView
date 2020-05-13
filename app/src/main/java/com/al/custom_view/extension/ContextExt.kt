@@ -1,3 +1,4 @@
+@file:JvmName("ContextUtils")
 package com.al.custom_view.extension
 
 import android.app.Activity
@@ -6,9 +7,15 @@ import android.content.Intent
 import android.widget.Toast
 import com.al.custom_view.CustomViewApplication
 
+/**
+ * 当在kt文件最顶部加上@file:JvmName("XXX")后面
+ * java调用的时候就不需要文件名加Kt
+ * 直接用XXX调用
+ */
 
 fun showToast(msg:String){
-    Toast.makeText(CustomViewApplication.getAppContext(), msg, Toast.LENGTH_SHORT).show()
+    //Toast.makeText(CustomViewApplication.getAppContext(), msg, Toast.LENGTH_SHORT).show()
+    Toast.makeText(CustomViewApplication.mContext, msg, Toast.LENGTH_SHORT).show()
 }
 
 fun Context.showToast(msg: String) {

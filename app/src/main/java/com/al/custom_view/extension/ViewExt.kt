@@ -1,7 +1,6 @@
 package com.al.custom_view.extension
 
 import android.view.View
-
 /**
  * 用以防止按钮快速重复点击
  */

@@ -24,4 +24,12 @@
         <!--字体颜色-->
         <attr name="stepTextColor" format="color" />
     </declare-styleable>
+
+    <!--跟随ViewPager字体颜色变化的TextView-->
+    <declare-styleable name="ColorTrackTextView">
+        <!--默认颜色-->
+        <attr name="originColor" format="color" />
+        <!--选中的颜色-->
+        <attr name="selectColor" format="color" />
+    </declare-styleable>
 </resources>

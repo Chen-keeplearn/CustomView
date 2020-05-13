@@ -24,6 +24,8 @@
         <activity android:name=".rating_view.RatingViewActivity" />
         <activity android:name=".step_view.QQStepViewActivity" />
         <activity android:name=".loading58.Loading58ViewActivity" />
+        <activity android:name=".text_view_color_track.ColorTrackActivity" />
+        <activity android:name=".dashboard.DashboardActivity" />
     </application>
 
 </manifest>

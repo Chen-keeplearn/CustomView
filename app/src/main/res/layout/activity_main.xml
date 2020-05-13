@@ -70,6 +70,27 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/loading58_introduce" />
+        <Button
+            android:id="@+id/btnColorTrackTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ColorTrackTextView"
+            android:textAllCaps="false" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textView_color_track" />
+        <Button
+            android:id="@+id/btnDashboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dashboard"
+            android:textAllCaps="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dashboard_text" />
     </LinearLayout>
 </layout>
