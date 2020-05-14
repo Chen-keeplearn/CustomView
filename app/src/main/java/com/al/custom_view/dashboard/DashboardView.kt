@@ -118,7 +118,7 @@ class DashboardView @JvmOverloads constructor(
         //绘制指针
         //mDashPaint.pathEffect = null
         //Log.i("yl--", "angle==${getCurrentAngle(1)}")
-        //指针结束点的X坐标就是角度的余弦
+        //指针结束点的X坐标就是角度的余弦,相对于view,需要加上相对位移
         val endX = cos(Math.toRadians(getCurrentAngle(2))) * mPointerLength + width / 2
         //指针结束点的Y坐标就是角度的正弦
         val endY = sin(Math.toRadians(getCurrentAngle(2))) * mPointerLength + height / 2
