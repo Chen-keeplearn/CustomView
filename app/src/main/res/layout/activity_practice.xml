@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <!--<com.al.custom_view.hen_coder_course.SquareImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/start_img"/>-->
+
+        <com.al.custom_view.hen_coder_course.CircleView
+            android:layout_width="300dp"
+            android:layout_height="200dp" />
+
+        <com.al.custom_view.hen_coder_course.TagLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_40"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:text="詹姆斯" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_40"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:text="乔丹" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_40"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:text="科沃尔" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_40"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:text="韦德" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_40"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:text="特雷西麦克格雷迪" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_40"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:text="雷阿伦" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_40"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:text="皮尔斯" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_40"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:text="沃尔" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_40"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:text="凯里欧文" />
+        </com.al.custom_view.hen_coder_course.TagLayout>
+
+    </LinearLayout>
+
+
+</layout>

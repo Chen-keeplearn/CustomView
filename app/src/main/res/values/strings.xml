@@ -18,4 +18,10 @@
     <string name="draw_left">从左开始绘制</string>
     <string name="dashboard">Dashboard</string>
     <string name="dashboard_text">仪表盘</string>
+    <string name="start_page">RedBookStartPage</string>
+    <string name="start_page_scroll">小红书启动页图片自动滚动</string>
+    <string name="practice">Practice</string>
+    <string name="clear_drawing">清除画板</string>
+    <string name="drawingBoardView">DrawingBoardView</string>
+    <string name="drawing_board_text">画板</string>
 </resources>

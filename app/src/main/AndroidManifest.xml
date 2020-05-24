@@ -26,6 +26,9 @@
         <activity android:name=".loading58.Loading58ViewActivity" />
         <activity android:name=".text_view_color_track.ColorTrackActivity" />
         <activity android:name=".dashboard.DashboardActivity" />
+        <activity android:name=".small_red_book_start.SmallRedBookStartActivity" />
+        <activity android:name=".hen_coder_course.PracticeActivity" />
+        <activity android:name=".drawing_board.DrawingBoardActivity" />
     </application>
 
 </manifest>

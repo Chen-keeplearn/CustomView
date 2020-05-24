@@ -5,12 +5,15 @@ import android.os.Bundle
 import androidx.databinding.DataBindingUtil
 import com.al.custom_view.dashboard.DashboardActivity
 import com.al.custom_view.databinding.ActivityMainBinding
+import com.al.custom_view.drawing_board.DrawingBoardActivity
 import com.al.custom_view.extension.onClick
 import com.al.custom_view.extension.startActivity
+import com.al.custom_view.hen_coder_course.PracticeActivity
 import com.al.custom_view.loading58.Loading58ViewActivity
 import com.al.custom_view.loading_view.LoadingViewActivity
 import com.al.custom_view.path_menu.PathMenuActivity
 import com.al.custom_view.rating_view.RatingViewActivity
+import com.al.custom_view.small_red_book_start.SmallRedBookStartActivity
 import com.al.custom_view.step_view.QQStepViewActivity
 import com.al.custom_view.text_view_color_track.ColorTrackActivity
 import com.al.custom_view.utils.ToastUtil
@@ -44,6 +47,15 @@ class MainActivity : AppCompatActivity() {
         }
         btnDashboard.onClick {
             startActivity(DashboardActivity::class.java)
+        }
+        btnSmallRedBook.onClick {
+            startActivity(SmallRedBookStartActivity::class.java)
+        }
+        btnPractice.onClick {
+            startActivity(PracticeActivity::class.java)
+        }
+        btnGoDrawingBoard.onClick {
+            startActivity(DrawingBoardActivity::class.java)
         }
     }
 }
