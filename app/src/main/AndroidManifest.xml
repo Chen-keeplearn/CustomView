@@ -29,6 +29,7 @@
         <activity android:name=".small_red_book_start.SmallRedBookStartActivity" />
         <activity android:name=".hen_coder_course.PracticeActivity" />
         <activity android:name=".drawing_board.DrawingBoardActivity" />
+        <activity android:name=".circle_progress_bar.CircleProgressBarActivity" />
     </application>
 
 </manifest>

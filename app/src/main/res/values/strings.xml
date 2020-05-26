@@ -24,4 +24,6 @@
     <string name="clear_drawing">清除画板</string>
     <string name="drawingBoardView">DrawingBoardView</string>
     <string name="drawing_board_text">画板</string>
+    <string name="circle_progress_bar">CircleProgressBar</string>
+    <string name="circle_progress_bar_text">圆形进度条</string>
 </resources>

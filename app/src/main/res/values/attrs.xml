@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--弧度自带颜色-->
+    <attr name="normalColor" format="color" />
+    <!--dimension:大小宽度-->
+    <!--圆弧宽度-->
+    <attr name="borderWidth" format="dimension" />
     <!-- 评分控件自定义属性 -->
     <declare-styleable name="RatingView">
         <!-- 星星未选中 资源文件 -->
@@ -13,12 +18,14 @@
     <!--仿QQ计步器view-->
     <declare-styleable name="QQStepView">
         <!--弧度自带颜色-->
-        <attr name="normalColor" format="color" />
+        <!--<attr name="normalColor" format="color" />-->
+        <attr name="normalColor" />
         <!--步数颜色-->
         <attr name="stepColor" format="color" />
         <!--dimension:大小宽度-->
         <!--圆弧宽度-->
-        <attr name="borderWidth" format="dimension" />
+        <!--<attr name="borderWidth" format="dimension" />-->
+        <attr name="borderWidth" />
         <!--字体大小-->
         <attr name="stepTextSize" format="dimension" />
         <!--字体颜色-->
@@ -31,5 +38,19 @@
         <attr name="originColor" format="color" />
         <!--选中的颜色-->
         <attr name="selectColor" format="color" />
+    </declare-styleable>
+
+    <!--自定义的圆形进度ProgressBar-->
+    <declare-styleable name="CircleProgressBar">
+        <!--圆形进度内文字-->
+        <attr name="android:textColor" />
+        <!--圆形进度内文字大小-->
+        <attr name="android:textSize" />
+        <!--圆形进度条颜色-->
+        <attr name="progressColor" format="color|reference" />
+        <!--当前进度-->
+        <attr name="android:progress" />
+        <attr name="normalColor" />
+        <attr name="borderWidth" />
     </declare-styleable>
 </resources>

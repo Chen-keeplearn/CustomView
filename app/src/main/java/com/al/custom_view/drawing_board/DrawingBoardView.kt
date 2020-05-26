@@ -91,6 +91,9 @@ class DrawingBoardView @JvmOverloads constructor(
         return true
     }
 
+    /**
+     * 提供外部调用方法,用于清理画板
+     */
     fun clear(){
         //重置路径
         mPath.reset()

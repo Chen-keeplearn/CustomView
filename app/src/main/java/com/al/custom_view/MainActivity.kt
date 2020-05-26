@@ -3,6 +3,7 @@ package com.al.custom_view
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
+import com.al.custom_view.circle_progress_bar.CircleProgressBarActivity
 import com.al.custom_view.dashboard.DashboardActivity
 import com.al.custom_view.databinding.ActivityMainBinding
 import com.al.custom_view.drawing_board.DrawingBoardActivity
@@ -56,6 +57,9 @@ class MainActivity : AppCompatActivity() {
         }
         btnGoDrawingBoard.onClick {
             startActivity(DrawingBoardActivity::class.java)
+        }
+        btnCircleProgressBar.onClick {
+            startActivity(CircleProgressBarActivity::class.java)
         }
     }
 }
